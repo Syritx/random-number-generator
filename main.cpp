@@ -7,9 +7,9 @@ int main() {
     time_t t;
     
     srand((unsigned)time(&t));
-    int xOffset = (rand() % 3) - 1;
-    int zOffset = (rand() % 3) - 1;
+    
+    // generates a number between 1 and 100
+    int random = (rand() % 100) + 1;
 
-    printf("X: %d\n", zOffset);
-    printf("Z: %d\n", xOffset);
+    printf("X: %d\n", random);
 }
